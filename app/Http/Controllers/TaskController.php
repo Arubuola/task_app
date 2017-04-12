@@ -39,7 +39,7 @@ class TaskController extends Controller
     public function create()
     {
         //
-        Session::flash('info',' Add a task');
+        Session::flash('info',' Add a new task here');
 
         return view('add');
     }
